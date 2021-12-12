@@ -22,24 +22,33 @@ HomePage homepage = new HomePage();
 homepage.Register(mydriver);
 
 mydriver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+
 homepage.Create(mydriver);
 
 homepage.CreateMyself(mydriver);
+
 mydriver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 
 homepage.enterFirstaName_1(mydriver);
 
 mydriver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+
 homepage.enterLastaName_1(mydriver);
 
 mydriver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+
 homepage.enterUserName_1(mydriver);
 
 mydriver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+
 homepage.enterPassword_1(mydriver);
+
 mydriver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+
 homepage.enterConfirmPassword_1(mydriver);
+
 mydriver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+
 homepage.showConfirmPassword_1(mydriver);
 
 mydriver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
@@ -47,6 +56,7 @@ mydriver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 homepage.clickNext_1(mydriver);
 
 mydriver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+
 homepage.enterPhone_1(mydriver);
 
 //mydriver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
