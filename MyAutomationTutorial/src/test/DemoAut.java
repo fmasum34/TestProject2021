@@ -60,6 +60,7 @@ mydriver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 homepage.enterPhone_1(mydriver);
 
 //mydriver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+
 //homepage.clickPhone_2(mydriver);
 
 // ADDING THE NEW 
