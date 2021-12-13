@@ -18,6 +18,7 @@ public class DemoAut {
 WebDriver mydriver = TestRunSetup.launch("chrome", "https://www.google.com/");
 
 HomePage homepage = new HomePage();
+//add test
 
 homepage.Register(mydriver);
 
