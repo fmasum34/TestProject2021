@@ -18,7 +18,7 @@ public class DemoAut {
 WebDriver mydriver = TestRunSetup.launch("chrome", "https://www.google.com/");
 
 HomePage homepage = new HomePage();
-//add test
+//I am testing the eclips and get connect to the jenkins server
 
 homepage.Register(mydriver);
 
