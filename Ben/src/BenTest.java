@@ -15,8 +15,8 @@ public class BenTest {
 		System.out.println(d);
 		System.out.println(c);
 		
-		System.out.println(x+y);
-		System.out.println(y+x);
+		//System.out.println(x+y);
+		//System.out.println(y+x);
 
 		if(x ==y) {
 			System.out.println("TRUE");
