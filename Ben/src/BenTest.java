@@ -7,8 +7,8 @@ public class BenTest {
 			String x = "WE ARE GOING TO LA";
 			String y = "WE ARE GOINT TO NEWWORK";
 			
-			String d = "WE ARE GOING TO LA";
-			String c = "WE ARE GOINT TO NEWWORK";
+			String d = "WE ARE not going to NY TO LA";
+			String c = "WE ARE vsry famause TO NEWWORK";
 		
 		System.out.println(x);
 		System.out.println(y);
@@ -23,6 +23,13 @@ public class BenTest {
 		}
 		else {
 			System.out.println("FALSE");
+			
+			if(c ==d) {
+			System.out.println("TRUE");
+		}
+		else {
+			System.out.println("FALSE");
+		}
 		}
 		System.out.println("________________________________________________________");
 			}
