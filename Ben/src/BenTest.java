@@ -7,10 +7,13 @@ public class BenTest {
 			String x = "WE ARE GOING TO LA";
 			String y = "WE ARE GOINT TO NEWWORK";
 			
-		 
+			String d = "WE ARE GOING TO LA";
+			String c = "WE ARE GOINT TO NEWWORK";
 		
 		System.out.println(x);
 		System.out.println(y);
+		System.out.println(d);
+		System.out.println(c);
 		
 		//System.out.println(x+y);
 		//System.out.println(y+x);
