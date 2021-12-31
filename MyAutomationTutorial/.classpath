@@ -76,5 +76,17 @@
 	<classpathentry kind="lib" path="C:/Program Files/allure-2.16.0/lib/stax2-api-4.2.1.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/allure-2.16.0/lib/tika-core-2.1.0.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/allure-2.16.0/lib/woodstox-core-6.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium Driver/Libary for Jar File/ExtentReport/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium Driver/Libary for Jar File/ExtentReport/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium Driver/Libary for Jar File/ExtentReport/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium Driver/Libary for Jar File/ExtentReport/extentreports-3.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium Driver/Libary for Jar File/ExtentReport/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium Driver/Libary for Jar File/ExtentReport/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium Driver/Libary for Jar File/ExtentReport/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium Driver/Libary for Jar File/ExtentReport/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium Driver/Libary for Jar File/ExtentReport/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium Driver/Libary for Jar File/ExtentReport/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium Driver/Libary for Jar File/ExtentReport/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium Driver/Libary for Jar File/ExtentReport/mongodb-driver-core-3.3.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
