@@ -1,14 +1,17 @@
 package mymaven_test;
 
 
+
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class maven_browser {
 
+	
 	public static void main(String[] args) {
 		
 		//System.setProperty("webdriver.chrome.driver", "C:\\Selenium Driver\\chromedriver.exe");
@@ -31,11 +34,20 @@ public class maven_browser {
 		//WebDriver driver = new FirefoxDriver();
 		//mydriver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 		
-		driver.get("https://www.walmart.com/");
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		
+		driver.get("https://www.google.com/");
 		//Thread.sleep(30000);
 		driver.manage().window().maximize();
+				
+		
+		
+		driver.findElement(By.name("q")).sendKeys("automation step by step tutorial");
+		
+		
+		driver.manage().timeouts().implicitlyWait(600, TimeUnit.MILLISECONDS);
+		
+		driver.findElement(By.name("q")).submit();
+		
+		
 	}
 
 }
