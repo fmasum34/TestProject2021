@@ -14,8 +14,11 @@ public class DemoAut {
 		
 		
 		// TODO Auto-generated method stub
+		
+
 
 WebDriver mydriver = TestRunSetup.launch("chrome", "https://www.google.com/");
+
 
 HomePage homepage = new HomePage();
 //I am testing the eclips and get connect to the jenkins server
