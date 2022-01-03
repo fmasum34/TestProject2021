@@ -2,24 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-01T21:36:02 CST" name="Default suite" finished-at="2022-01-01T21:36:32 CST" duration-ms="29701">
+  <suite started-at="2022-01-02T18:53:23 CST" name="Default suite" finished-at="2022-01-02T18:53:50 CST" duration-ms="27256">
     <groups>
     </groups>
-    <test started-at="2022-01-01T21:36:02 CST" name="Default test" finished-at="2022-01-01T21:36:32 CST" duration-ms="29701">
-      <class name="test.TestNGPageTest">
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:test.TestNGPageTest@bae7dc0]" started-at="2022-01-01T21:36:02 CST" name="setUpTest" finished-at="2022-01-01T21:36:05 CST" duration-ms="3114" status="PASS">
+    <test started-at="2022-01-02T18:53:23 CST" name="Default test" finished-at="2022-01-02T18:53:50 CST" duration-ms="27256">
+      <class name="test.ExtentReportsTestDemowithTestNG">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ExtentReportsTestDemowithTestNG@3ee37e5a]" started-at="2022-01-02T18:53:23 CST" name="setUp" finished-at="2022-01-02T18:53:23 CST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:test.ExtentReportsTestDemowithTestNG@3ee37e5a]" started-at="2022-01-02T18:53:23 CST" name="setUpTest" finished-at="2022-01-02T18:53:26 CST" duration-ms="2776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="googlesearch()[pri:0, instance:test.TestNGPageTest@bae7dc0]" started-at="2022-01-01T21:36:06 CST" name="googlesearch" finished-at="2022-01-01T21:36:32 CST" duration-ms="26517" status="PASS">
+        <test-method signature="test1()[pri:0, instance:test.ExtentReportsTestDemowithTestNG@3ee37e5a]" started-at="2022-01-02T18:53:26 CST" name="test1" finished-at="2022-01-02T18:53:48 CST" duration-ms="22367" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- googlesearch -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:test.TestNGPageTest@bae7dc0]" started-at="2022-01-01T21:36:32 CST" name="tearDownTest" finished-at="2022-01-01T21:36:32 CST" duration-ms="1" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDownTest1()[pri:0, instance:test.ExtentReportsTestDemowithTestNG@3ee37e5a]" started-at="2022-01-02T18:53:48 CST" name="tearDownTest1" finished-at="2022-01-02T18:53:50 CST" duration-ms="2083" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownTest -->
-      </class> <!-- test.TestNGPageTest -->
+        </test-method> <!-- tearDownTest1 -->
+        <test-method is-config="true" signature="teraDown()[pri:0, instance:test.ExtentReportsTestDemowithTestNG@3ee37e5a]" started-at="2022-01-02T18:53:50 CST" name="teraDown" finished-at="2022-01-02T18:53:51 CST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teraDown -->
+      </class> <!-- test.ExtentReportsTestDemowithTestNG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
