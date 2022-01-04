@@ -31,7 +31,7 @@ System.setProperty("webdriver.chrome.driver","C:\\Users\\FAISAL.MASUM\\git\\Test
 		
 	}
 	
-	@Test
+	@Test(priority =1)
 	
 	public  void googlesearch() {
 		
@@ -41,7 +41,7 @@ System.setProperty("webdriver.chrome.driver","C:\\Users\\FAISAL.MASUM\\git\\Test
 		
 		driver.manage().window().maximize();
 		
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.MILLISECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.MILLISECONDS);
 		
 		//driver.findElement(By.xpath("//body/div[1]/div[3]/form[1]/div[1]/div[1]/div[1]/div[2]/div[2]/input[1]")).sendKeys("Automation step by step");
 		

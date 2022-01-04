@@ -17,7 +17,7 @@ public class DemoAut {
 		
 
 
-WebDriver mydriver = TestRunSetup.launch("chrome", "https://www.google.com/");
+WebDriver mydriver = TestRunSetup.launch("chrome", "https://www.cnn.com/");
 
 
 HomePage homepage = new HomePage();

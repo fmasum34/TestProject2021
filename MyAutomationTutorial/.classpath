@@ -88,5 +88,8 @@
 	<classpathentry kind="lib" path="C:/Selenium Driver/Libary for Jar File/ExtentReport/jsoup-1.9.2.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium Driver/Libary for Jar File/ExtentReport/mongodb-driver-3.3.0.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium Driver/Libary for Jar File/ExtentReport/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium Driver/Libary for Jar File/TestNG Jar/jcommander-1.78.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium Driver/Libary for Jar File/TestNG Jar/jquery-3.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium Driver/Libary for Jar File/TestNG Jar/testng-7.4.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
