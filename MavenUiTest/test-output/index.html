@@ -104,7 +104,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="test.TestNGPageTest" class="method navigator-link" hash-for-method="googlesearch">googlesearch</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test.ExtentReportsTestDemowithTestNG" class="method navigator-link" hash-for-method="test1">test1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -122,14 +122,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test.TestNGPageTest</span>
+              <span class="class-name">test.ExtentReportsTestDemowithTestNG</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="googlesearch">
-                  </a> <!-- googlesearch -->
-                  <span class="method-name">googlesearch</span>
+                  <a name="test1">
+                  </a> <!-- test1 -->
+                  <span class="method-name">test1</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -146,7 +146,7 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;test.TestNGPageTest&quot;/&gt;
+      &lt;class name=&quot;test.ExtentReportsTestDemowithTestNG&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -188,14 +188,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'googlesearch')
-data.setCell(0, 2, 'test.TestNGPageTest')
-data.setCell(0, 3, 14119);
+data.setCell(0, 1, 'test1')
+data.setCell(0, 2, 'test.ExtentReportsTestDemowithTestNG')
+data.setCell(0, 3, 11270);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -221,19 +221,27 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test.TestNGPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test.ExtentReportsTestDemowithTestNG</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">setUpTest</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">328 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">googlesearch</span>
-                <span class="method-start">3254 ms</span>
+                <span class="method-name">test1</span>
+                <span class="method-start">3147 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">17515 ms</span>
+                <span class="method-name">tearDownTest1</span>
+                <span class="method-start">14512 ms</span>
               </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">teraDown</span>
+                <span class="method-start">14987 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

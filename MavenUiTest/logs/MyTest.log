@@ -1,0 +1,8 @@
+[INFO ] 2022-01-04 23:02:14.974 [main] Log4JTest - This is the log4j information message
+[ERROR] 2022-01-04 23:02:14.982 [main] Log4JTest - This is log4j error messages
+[WARN ] 2022-01-04 23:02:14.982 [main] Log4JTest - This is logger warn message
+[FATAL] 2022-01-04 23:02:14.983 [main] Log4JTest - this is logger fatal message
+[INFO ] 2022-01-04 23:10:44.091 [main] Log4JTest - This is the log4j information message
+[ERROR] 2022-01-04 23:10:44.100 [main] Log4JTest - This is log4j error messages
+[WARN ] 2022-01-04 23:10:44.101 [main] Log4JTest - This is logger warn message
+[FATAL] 2022-01-04 23:10:44.101 [main] Log4JTest - this is logger fatal message
