@@ -6,6 +6,10 @@ public class GitTest2024 {
 		
 		
 	System.out.println("git test");
+	
+	System.out.println("git test");
+	
+	System.out.println("git test");
 	}
 
 }
